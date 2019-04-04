@@ -1,0 +1,52 @@
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1220px;
+        padding: 0 20px;
+    }
+
+    .burger-menu {
+        > .flexible {
+            min-height: 914px;
+        }
+    }
+
+    .burger-menu__nav {
+        margin-top: 6.83594vh;
+
+        li + li {
+            margin-top: 30px;
+        }
+
+        a {
+            font-size: 48px;
+        }
+    }
+
+    .main__text-bg {
+        line-height: 0.7;
+        top: 12.5vh;
+        left: -45px;
+    }
+
+    .promo {
+        .container {
+            min-height: 640px;
+            background-position: right 20px top 45%;
+            background-size: auto 447px;
+        }
+
+        h1 {
+            font-size: 72px;
+            max-width: 700px;
+        }
+
+        p {
+            max-width: 700px;
+        }
+    }
+
+    .promo__tagline {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+}

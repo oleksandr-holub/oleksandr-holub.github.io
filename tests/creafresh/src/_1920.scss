@@ -1,0 +1,44 @@
+@media screen and (min-width:1920px) {
+    .container {
+        width: 1540px;
+    }
+
+    .header {
+        .container {
+            width: 100%;
+        }
+    }
+
+    .burger-menu {
+        > .flexible {
+            min-height: 914px;
+        }
+    }
+
+    .burger-menu__nav {
+        margin-top: 6.48149vh;
+    }
+
+    .lang {
+        right: 50px;
+    }
+
+    .main__text-bg {
+        top: 22vh;
+    }
+
+    .promo {
+        .container {
+            min-height: 640px;
+            background-position: right 20px top 45%;
+            background-size: auto 635px;
+        }
+    }
+
+    .footer {
+        .container {
+            width: 100%;
+            padding: 0 50px;
+        }
+    }
+}

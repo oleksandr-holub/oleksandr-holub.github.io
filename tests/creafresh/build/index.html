@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Creafresh - Test</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">    
+</head>
+<body id="body">
+    <div class="header__outer">
+        <header id="header" class="header">
+            <div class="container flexible">
+                <a href="#"><span class="logo"></span></a>
+                <button id="burger" class="btn-burger" type="button"></button>
+            </div>
+        </header>
+
+        <div class="burger-menu">
+            <div class="flexible">
+                <ul class="burger-menu__nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+
+                <div class="burger-menu__bottom">
+                    <ul class="lang flexible">
+                        <li><a href="#">ru</a></li>
+                        <li class="active">eng</li>
+                    </ul>
+
+                    <a href="#"><span class="icon-home"></span></a>
+
+                    <footer class="footer">
+                        <div class="container flexible">
+                            <div class="footer__contacts">
+                                <p>Creafresh Design Agency, 18000&nbsp;Ukraine,&nbsp;Cherkassy,&nbsp;Il’ina st, ap 245 - 23</p>
+                                <p>+38(063) 374 44 62 info@creafresh.com</p>
+                            </div>
+                
+                            <div class="footer__col">
+                                <ul class="social-list">
+                                    <li><a class="link--inst" href="#">Instagram</a></li>
+                                    <li><a class="link--fb" href="#">Facebook</a></li>
+                                </ul>
+                
+                                <div class="copyrights">
+                                    <p>&copy; CreaFresh 2015-2018. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <b class="main__text-bg">Design</b>
+
+        <div class="promo">
+            <div class="container flexible">
+                <h1>We are Creafresh</h1>
+
+                <p class="promo__tagline">A digitally minded creative agency.</p>
+            </div>
+        </div>
+    
+        <div class="works container flexible">
+            <div class="works__item">
+                <img src="images/works-img01.jpg" alt="">
+            </div>
+            <div class="works__item">
+                <img src="images/works-img02.jpg" alt="">
+            </div>
+            <div class="works__item">
+                <img src="images/works-img03.jpg" alt="">
+            </div>
+            <div class="works__item">
+                <img src="images/works-img04.jpg" alt="">
+            </div>
+            <div class="works__row flexible">
+                <div class="works__item">
+                    <img src="images/works-img05.jpg" alt="">
+                </div>
+                <div class="works__item">
+                    <img src="images/works-img06.jpg" alt="">
+                </div>
+                <div class="works__item">
+                    <img src="images/works-img07.jpg" alt="">
+                </div>
+            </div>
+            <div class="works__item">
+                <img src="images/works-img08.jpg" alt="">
+            </div>
+            <div class="works__item">
+                <img src="images/works-img09.jpg" alt="">
+            </div>
+
+            <div class="works__info">
+                <p>Nunc nisl enim, dictum ut tincidunt vitae, dictum et odio. Etiam et posuere nulla, et cursus lectus. Proin sodales sagittis suscipit.</p>
+                <p>Donec at erat metus. Aliquam magna lectus, pulvinar ut mattis at, ornare sit</p>
+
+                <a class="btn" href="#">View all works</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="instagram container">
+        <p class="instagram__title">
+            <b><span>@</span>Creafresh</b>
+        </p>
+
+        <div class="flexible">
+            <div class="instagram__item">
+               <img src="images/instagram-img01.jpg" alt="">
+            </div>
+            <div class="instagram__item">
+                <img src="images/instagram-img02.jpg" alt="">
+             </div>
+             <div class="instagram__item">
+                <img src="images/instagram-img03.jpg" alt="">
+             </div>
+             <div class="instagram__item">
+                <img src="images/instagram-img04.jpg" alt="">
+             </div>
+             <div class="instagram__item">
+                <img src="images/instagram-img05.jpg" alt="">
+             </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container flexible">
+            <div class="footer__contacts">
+                <p>Creafresh Design Agency, 18000&nbsp;Ukraine,&nbsp;Cherkassy,&nbsp;Il’ina st, ap 245 - 23</p>
+                <p>+38(063) 374 44 62 info@creafresh.com</p>
+            </div>
+
+            <div class="footer__col">
+                <ul class="social-list">
+                    <li><a class="link--inst" href="#">Instagram</a></li>
+                    <li><a class="link--fb" href="#">Facebook</a></li>
+                </ul>
+
+                <div class="copyrights">
+                    <p>&copy; CreaFresh 2015-2018. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var header = document.getElementById("header");
+        var burger = document.getElementById("burger");
+        var body = document.getElementById('body');
+
+        window.onscroll = function() {
+            if (window.pageYOffset > 0) {
+                header.classList.add('js-bg');
+            } else {
+                header.classList.remove('js-bg');
+            }
+        };
+
+        burger.onclick = function() {
+            header.classList.toggle('js-show');
+            body.classList.toggle('js-body')
+        };
+    </script>
+</body>
+</html>
