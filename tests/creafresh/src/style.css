@@ -400,7 +400,7 @@ a:hover .icon-home {
     padding-left: 40px;
     padding-right: 40px; }
   .lang {
-    right: 40px;
+    right: 50px;
     top: -20px; }
     .lang li + li {
       margin-left: 0;
@@ -452,8 +452,8 @@ a:hover .icon-home {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1220px;
-    padding: 0 20px; }
+    width: 1280px;
+    padding: 0 50px; }
   .burger-menu > .flexible {
     min-height: 914px; }
   .burger-menu__nav {
@@ -481,7 +481,7 @@ a:hover .icon-home {
 
 @media screen and (min-width: 1920px) {
   .container {
-    width: 1540px; }
+    width: 1600px; }
   .header .container {
     width: 100%; }
   .burger-menu > .flexible {
